@@ -14,6 +14,10 @@
 		C9CD49551A8A263100CB0B10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CD49541A8A263100CB0B10 /* Images.xcassets */; };
 		C9CD49581A8A263100CB0B10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CD49561A8A263100CB0B10 /* LaunchScreen.xib */; };
 		C9CD49641A8A263200CB0B10 /* Die_TaskeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD49631A8A263100CB0B10 /* Die_TaskeTests.swift */; };
+		C9CD496E1A8A2F6100CB0B10 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD496D1A8A2F6100CB0B10 /* TaskCell.swift */; };
+		C9CD49701A8A95EB00CB0B10 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD496F1A8A95EA00CB0B10 /* TaskModel.swift */; };
+		C9CD49721A8AA4D800CB0B10 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD49711A8AA4D800CB0B10 /* TaskDetailViewController.swift */; };
+		C9CD49741A8AB5F800CB0B10 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD49731A8AB5F800CB0B10 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		C9CD495D1A8A263100CB0B10 /* Die TaskeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Die TaskeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CD49621A8A263100CB0B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9CD49631A8A263100CB0B10 /* Die_TaskeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Die_TaskeTests.swift; sourceTree = "<group>"; };
+		C9CD496D1A8A2F6100CB0B10 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		C9CD496F1A8A95EA00CB0B10 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		C9CD49711A8AA4D800CB0B10 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		C9CD49731A8AB5F800CB0B10 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +89,15 @@
 			children = (
 				C9CD494A1A8A263100CB0B10 /* AppDelegate.swift */,
 				C9CD494F1A8A263100CB0B10 /* ViewController.swift */,
+				C9CD49731A8AB5F800CB0B10 /* Date.swift */,
+				C9CD49711A8AA4D800CB0B10 /* TaskDetailViewController.swift */,
 				C9CD49511A8A263100CB0B10 /* Main.storyboard */,
 				C9CD49541A8A263100CB0B10 /* Images.xcassets */,
 				C9CD49561A8A263100CB0B10 /* LaunchScreen.xib */,
 				C9CD494C1A8A263100CB0B10 /* Die_Taske.xcdatamodeld */,
 				C9CD49481A8A263100CB0B10 /* Supporting Files */,
+				C9CD496D1A8A2F6100CB0B10 /* TaskCell.swift */,
+				C9CD496F1A8A95EA00CB0B10 /* TaskModel.swift */,
 			);
 			path = "Die Taske";
 			sourceTree = "<group>";
@@ -215,7 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CD49721A8AA4D800CB0B10 /* TaskDetailViewController.swift in Sources */,
+				C9CD496E1A8A2F6100CB0B10 /* TaskCell.swift in Sources */,
+				C9CD49741A8AB5F800CB0B10 /* Date.swift in Sources */,
 				C9CD49501A8A263100CB0B10 /* ViewController.swift in Sources */,
+				C9CD49701A8A95EB00CB0B10 /* TaskModel.swift in Sources */,
 				C9CD494B1A8A263100CB0B10 /* AppDelegate.swift in Sources */,
 				C9CD494E1A8A263100CB0B10 /* Die_Taske.xcdatamodeld in Sources */,
 			);
